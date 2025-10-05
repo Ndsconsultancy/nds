@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <meta name="robots" content="index, nofollow" />
+
+    <!-- BASIC INFO -->
+    <title>Preference Center</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="/css/mktLPSupportCompat.css"
+    />
+
+    <!-- GOOGLE FONTS -->
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Montserrat:400,700"
+    />
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+    />
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+
+    <!-- LIBRARIES CSS -->
+    <link
+      rel="stylesheet"
+      href="//templates.marketo.net/template2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//templates.marketo.net/template2/css/animate.min.css"
+    />
+
+    <!-- SPECIFIC CSS -->
+    <link
+      rel="stylesheet"
+      href="//templates.marketo.net/template2/css/style.css"
+    />
+
+    <style>
+
+            .hero-layout-classic .hero-title{color: #ffffff;}.hero-layout-classic {padding: 90px 10px 120px;!important}.header-section, .header-section.floating {background-color: #000000;color:#FFFFFF;}#heroForm, #heroForm form {background-color: #ffffff;}#heroTitle h1 {color: #ffffff;}#heroTitle p {color: #FFFFFF;}#headerLogo{display:inline-block;vertical-align:middle;min-height:40px;min-width:60px;}#footerImage{min-height:60px;min-width:60px;}#descriptionImage{min-height:300px;}.cf_widget, .cf_widget * {box-sizing:initial;}a {color: #f3ae73;}a:focus, a:hover {color: #da955a;}.text-primary {color: #f3ae73;}a.text-primary:hover {color: #da955a;}.bg-primary {background-color: #f3ae73;}a.bg-primary:hover {background-color: #da955a;}.btn {background-color: #da955a;border-color: #f3ae73;}.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {background-color: #e6a166;border-color: #f3ae73;}.btn-primary .badge {color: #f3ae73;}.btn-link {color: #f3ae73;}.btn-link:hover, .btn-link:focus {color: #da955a;}.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {background-color: #f3ae73;}.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {border-color: #f3ae73;}.progress-bar {background-color: #f3ae73;}.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {background-color: #f3ae73;border-color: #f3ae73;}.icon-list-icon {background-color: #f3ae73;}.navbar-nav > li.header-action-button > a.btn-primary:hover, .navbar-nav > li.header-action-button > a.btn-primary:focus {background-color: #e6a166;}.benefit-icon {color: #f3ae73;}#jpreBar {background-color: #f3ae73;}.mktoForm * {box-sizing:initial;}#header {display:block;}#hero {display:block;}#about {display:block;}#footer{display:block;}li.header-action-button{display:block;}.icon-list li {position: relative;padding: 20px 0 20px 0;}.icon-list .icon-list-img {display:block;float:left;width:70px;height:70px;margin:20px 15px 0 0;}.icon-list .icon-list-img img{width:70px;height:70px;}#youtubeVideo{text-align:center;}.formwrap{width: 80%; padding: 0 25px; margin: 0 auto;}#container-header{width:80% !important;}@media only screen and (max-device-width: 480px) {.formwrap{width: 100%; padding: 0 35px;}#heroImg{width: auto !important;max-width: fit-content;}#container-header{width:auto !important;}.mktoformContainer{margin: 0px 10px;}} @media (min-width: 768px) and (max-width: 1024px){#container-header {
+        width: 90% !important;
+      }}
+    </style>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    <style>
+      .mktoGen.mktoImg {
+        display: inline-block;
+        line-height: 0;
+      }
+    </style>
+  </head>
+  <body class="enable-animations enable-preloader" id="bodyId">
+    <div id="document" class="document">
+      <!-- HERO
+      ================================= -->
+      <section
+        id="hero"
+        class="hero-section hero-layout-classic hero-layout-features-and-form section section-dark"
+      >
+        <div class="section-background">
+          <!-- IMAGE BACKGROUND -->
+          <div
+            class="section-background-image parallax"
+            data-stellar-ratio="0.4"
+          >
+            <div class="mktoImg mktoGen" id="mkto_gen_heroImg">
+              <img
+                class="lpimg"
+                id="heroImg"
+                mktoname="Hero BG Image (1600x1066)"
+                src="/images/New Background Image.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div id="container-header" class="container">
+          <div class="hero-content">
+            <div class="hero-content-inner">
+              <div class="hero-heading row" data-animation="fadeIn">
+                <div class="col-md-10" id="heroTitle">
+                  <div>
+                    <img
+                      src="/content/dam/epam/2023/epam.svg"
+                      width="100px"
+                      style="width: 80px; padding-bottom: 50px"
+                    />
+                  </div>
+                  <div class="mktoText" id="headerText">
+                    <div
+                      class="hero-title"
+                      style="
+                        font-size: 42px;
+                        text-transform: none;
+                        font-weight: 250;
+                      "
+                    >
+                      <div
+                        class="hero-title"
+                        style="
+                          display: inline;
+                          font-size: 42px;
+                          background: linear-gradient(
+                            90.38deg,
+                            #00fff0 -0.7%,
+                            #00f6ff 8.35%,
+                            #b896ff 100.92%
+                          );
+                          -webkit-background-clip: text;
+                          -webkit-text-fill-color: transparent;
+                          text-fill-color: transparent;
+                          text-transform: capitalize;
+                          font-weight: 250;
+                        "
+                      >
+                        Tell Us
+                      </div>
+                      What Matters To You Most
+                    </div>
+                    <p
+                      class="hero-tagline"
+                      style="
+                        font-weight: 300;
+                        font-size: 15px;
+                        margin-top: 21px;
+                      "
+                    >
+                      Set up your subscription.<br />Choose the topics you want
+                      to learn more about and we will send them your way.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section section" style="padding: 0px">
+        <div class="about-row row">
+          <div class="formwrap">
+            <div class="mktoText" id="textBeforeForm"><div></div></div>
+            <div class="mktoForm mktoformContainer" id="mainForm">
+              <div
+                id="lpeCDiv_8723"
+                class="lpeCElement Preference_center_-_Subscription_FormForm"
+              >
+                <span class="lpContentsItem formSpan">
+                  <script src="/js/forms2/js/forms2.min.js"></script>
+                  <form class="mktoForm" id="mktoForm_1007"></form>
+                  <script>
+                    (function () {
+                      var formDescriptor = {
+                        Id: 1007,
+                        Vid: 1007,
+                        Status: "approved",
+                        Name: "Preference center - Subscription Form.Form - Preference Center",
+                        Description: "",
+                        Layout: "left",
+                        GutterWidth: 10,
+                        OffsetWidth: 10,
+                        HasTwoButtons: true,
+                        SubmitLabel: "SUBMIT",
+                        ResetLabel: "Clear",
+                        ButtonLocation: "120",
+                        LabelWidth: 100,
+                        FieldWidth: 150,
+                        ToolTipType: "none",
+                        FontFamily: "Helvetica, Arial, sans-serif",
+                        FontSize: "13px",
+                        FontColor: "#333",
+                        FontUrl: null,
+                        LineMargin: 10,
+                        ProcessorVersion: 2,
+                        CreatedByUserid: 4650,
+                        ProcessOptions: {
+                          language: "English",
+                          locale: "en_US",
+                          profiling: {
+                            isEnabled: false,
+                            numberOfProfilingFields: 3,
+                            alwaysShowFields: [],
+                          },
+                          socialSignOn: {
+                            isEnabled: false,
+                            enabledNetworks: [],
+                            cfId: null,
+                            codeSnippet: null,
+                          },
+                          knownLead: { type: "form", template: "" },
+                        },
+                        EnableDeferredMode: 0,
+                        EnableCaptcha: 0,
+                        EnableGlobalFormValidationRule: 1,
+                        ButtonType: null,
+                        ButtonImageUrl: null,
+                        ButtonText: null,
+                        ButtonSubmissionText: "Please Wait",
+                        ButtonStyle: {
+                          id: 4,
+                          className: "mktoBluePill",
+                          css: '.mktoForm .mktoButtonWrap.mktoBluePill .mktoButton {\nbackground-color: #a5b8da;\nbackground-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a5b8da), color-stop(100%, #7089b3));\nbackground-image: -webkit-linear-gradient(top, #a5b8da, #7089b3);\nbackground-image: -moz-linear-gradient(top, #a5b8da, #7089b3);\nbackground-image: -ms-linear-gradient(top, #a5b8da, #7089b3);\nbackground-image: -o-linear-gradient(top, #a5b8da, #7089b3);\nbackground-image: linear-gradient(to bottom, #a5b8da, #7089b3);\nborder-top: 1px solid #758fba;\nborder-right: 1px solid #6c84ab;\nborder-bottom: 1px solid #5c6f91;\nborder-left: 1px solid #6c84ab;\nborder-radius: 18px;\n-webkit-box-shadow: inset 0 1px 0 0 #aec3e5;\nbox-shadow: inset 0 1px 0 0 #aec3e5;\ncolor: #fff;\nfont: bold 11px\/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;\npadding: 8px 0;\ntext-align: center;\ntext-shadow: 0 -1px 1px #64799e;\ntext-transform: uppercase;\nwidth: 150px;\n}\n.mktoForm .mktoButtonWrap.mktoBluePill .mktoButton:hover {\nbackground-color: #9badcc;\nbackground-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9badcc), color-stop(100%, #687fa6));\nbackground-image: -webkit-linear-gradient(top, #9badcc, #687fa6);\nbackground-image: -moz-linear-gradient(top, #9badcc, #687fa6);\nbackground-image: -ms-linear-gradient(top, #9badcc, #687fa6);\nbackground-image: -o-linear-gradient(top, #9badcc, #687fa6);\nbackground-image: linear-gradient(to bottom, #9badcc, #687fa6);\nborder-top: 1px solid #6d86ad;\nborder-right: 1px solid #647a9e;\nborder-bottom: 1px solid #546685;\nborder-left: 1px solid #647a9e;\n-webkit-box-shadow: inset 0 1px 0 0 #a5b9d9;\nbox-shadow: inset 0 1px 0 0 #a5b9d9;\ncursor: pointer;\n}\n.mktoForm .mktoButtonWrap.mktoBluePill .mktoButton:active {\nborder: 1px solid #546685;\n-webkit-box-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eeeeee;\nbox-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eeeeee;\n}\n',
+                          buttonColor: "#FFFFFF",
+                        },
+                        ThemeStyle: {
+                          id: 2,
+                          displayOrder: 1,
+                          name: "Simple",
+                          backgroundColor: "#FFF",
+                          layout: "left",
+                          fontFamily: "Helvetica, Arial, sans-serif",
+                          fontSize: "13px",
+                          fontColor: "#333",
+                          offsetWidth: 10,
+                          gutterWidth: 10,
+                          labelWidth: 100,
+                          fieldWidth: 150,
+                          lineMargin: 10,
+                          useBackgroundColorOnPreview: false,
+                          css: ".mktoForm fieldset.mkt3-formEditorFieldContainer{border: solid 1px gray;}.mktoForm fieldset.mkt3-formEditorFieldContainer legend{padding:0 1em;}",
+                          href: "css\/forms2-theme-simple.css",
+                          buttonStyleId: 11,
+                        },
+                        ThemeStyleOverride:
+                          '\/* Add your custom CSS below *\/\n\/*TESTER*\/\n\n\/*New Button*\/\n.mktoForm .mktoButtonWrap.mktoBluePill .mktoButton:hover {\nbackground: linear-gradient(92.49deg, #0078C2 6.53%, #0047FF 63.73%, #8453D2 98.91%) !important;\ncolor:#fff !important;\n    text-shadow: none !important;\n}\n\n.mktoForm .mktoButtonWrap.mktoBluePill{\n    margin-left: 0 !important;\n}\n\n.mktoForm .mktoButtonWrap.mktoBluePill .mktoButton{\ncolor:#000 !important;\n  text-shadow: 0 -1px 1px #fff !important;\nborder-color: #0078C2 #0047FF #8453D2 !important;\n  box-shadow: none !important;\nborder-style: solid;\nfont-weight: 700 !important;\nfont-size: 12px !important;\nline-height: 18px !important;\ntext-align: center;\nletter-spacing: 0.2em !important;\ntext-transform: uppercase;\n  width:100px !important;\n}\n\/*New Button END*\/\n\n.mktoForm .mktoRadioList \u003E input, .mktoForm .mktoCheckboxList \u003E input{\nmargin:1px 0 0 0;\n}\n\n#Pspacing{\nmargin-top:10px;\n}\n\n#Pspacing2{\nmargin-top:1px;\n}\n\n#FirstName{\nmargin-right:30px;\n  margin-bottom:20px;\n}\n\n#LblFirstName{\n  position: absolute;\n  bottom: 0px;\n  right: 225px;\n  top: 25px;\n}\n\n#Title{\nmargin-right:30px;\n  margin-bottom:20px;\n}\n#LblTitle{\n  position: absolute;\n  bottom: 0px;\n  right: 226px;\n  top: 25px;\n}\n\n#Email{\nmargin-right:30px;\n  margin-bottom:20px;\n}\n#LblEmail{\n  position: absolute;\n  bottom: 0px;\n  right: 230px;\n  top: 25px;\n  margin-right: -20px;}\n\n#LblLastName{\n  position: absolute;\n  bottom: 0px;\n  right: 200px;\n  top: 25px;\n  margin-right: -5px;}\n#LblCompany{\n  position: absolute;\n  bottom: 0px;\n  right: 200px;\n  top: 25px;\n  margin-right: -25px;}\n#LblCountry{\n  position: absolute;\n  bottom: 0px;\n  right: 200px;\n  top: 25px;\n  margin-right: -3px;}\n\n#LblState{\nposition: absolute;\nbottom: 0px;\nright: 220px;\ntop: 25px;\nmargin-right: -20px;\n}\n\n\n\/**\/\n\/* Add your custom CSS below *\/\n\n#subscribetoallcommunications{\nmargin-top:10px;\n}\n\nform {\n  width: 100% !important;\n}\n\n.mktoForm input[type="url"], .mktoForm input[type="text"], .mktoForm input[type="date"], .mktoForm input[type="tel"], .mktoForm input[type="email"], .mktoForm input[type="number"], .mktoForm textarea.mktoField, .mktoForm select.mktoField{\nborder: none;\nborder-bottom: 2px solid rgba(0, 0, 0, 0.1);\n}\n\n.mktoAsterix{display:none !important;}\n.mktoOffset{display:none;}\n\n.mktoForm .mktoRadioList \u003E label, .mktoForm .mktoCheckboxList \u003E label{\nmargin-bottom: 1em !important;\n}\n\n.mktoForm .mktoFormRow:nth-child(7) .mktoCheckboxList, .mktoForm .mktoFormRow:nth-child(8) .mktoCheckboxList{\n      position: absolute;\n    left: 0;\n    padding: 0.3rem 0.3rem 0.3rem 0;\n}\n\n.mktoForm .mktoFormRow:nth-child(7) .mktoLabel, .mktoForm .mktoFormRow:nth-child(8) .mktoLabel {\n    margin-left: 2.5em;\n    font-weight:lighter;\n}\n\n.mktoForm .mktoFormRow:nth-child(7), .mktoForm .mktoFormRow:nth-child(8) {\n    margin: 0;\n}\n\n.mktoFormRow:nth-child(11) .mktoCheckboxList,.mktoFormRow:nth-child(14) .mktoCheckboxList{\ndisplay:flex !important;\nflex-wrap:wrap !important;\nalign-items:flex-start !important;  \n  width:765px  !important;\n  padding:20px 0 0 0;\n}\n\n.mktoFormRow:nth-child(11) .mktoFormCol \u003E.mktoRequiredField \u003E label{\n  position: absolute;\n}\n\n.mktoFormRow:nth-child(11) .mktoCheckboxList \u003E label,.mktoFormRow:nth-child(14) .mktoCheckboxList \u003E label{\nwidth:220px ;\n  font-weight:lighter;\n}\n\n.mktoForm .mktoGutter {\n  display: none;\n}\n\n.mktoForm .mktoFormRow {\n  margin: 15px 0px;}\n\n@media(max-width: 900px){\n   .mktoFormRow:nth-child(11) .mktoCheckboxList,.mktoFormRow:nth-child(14) .mktoCheckboxList{\n\tdisplay: inline-block !important; \n\twidth: 100% !important;\n\t}\n   .mktoForm .mktoFormRow:nth-child(18) .mktoFormCol {\n      float: none;\n  }\n   .mktoFormRow:nth-child(18),.mktoFormRow:nth-child(15),.mktoFormRow:nth-child(16){\n    display: flex;\n        margin: 0px;\n         justify-content: flex-start;\n  }\n  \n  \n  .mktoFormRow:nth-child(18) .mktoHtmlText{\n    width: 100% !important;\n  }\n  \n  #Title{\n    margin-bottom: 30px !important;\n  }\n   .mktoForm .mktoFormRow:nth-child(2) #LblFirstName, .mktoForm .mktoFormRow:nth-child(2) #LblLastName,.mktoForm .mktoFormRow:nth-child(3) #LblEmail, .mktoForm .mktoFormRow:nth-child(3) #LblCompany,.mktoForm .mktoFormRow:nth-child(4) #LblCountry, .mktoForm .mktoFormRow:nth-child(4) #LblTitle, .mktoForm .mktoFormRow:nth-child(2) input,.mktoForm .mktoFormRow:nth-child(3) input, .mktoForm .mktoFormRow:nth-child(4) input,.mktoForm .mktoFormRow:nth-child(4) select{\n    width: 280px !important;\n  }\n  \n  .mktoForm .mktoFormRow:nth-child(2) .mktoFieldWrap, .mktoForm .mktoFormRow:nth-child(3) .mktoFieldWrap, .mktoForm .mktoFormRow:nth-child(4) .mktoFieldWrap{\nfloat: none !important;\n     }\n  \n    .mktoForm .mktoFormRow:nth-child(2) #LblFirstName, .mktoForm .mktoFormRow:nth-child(2) #LblLastName,.mktoForm .mktoFormRow:nth-child(3) #LblEmail, .mktoForm .mktoFormRow:nth-child(3) #LblCompany,.mktoForm .mktoFormRow:nth-child(4) #LblCountry, .mktoForm .mktoFormRow:nth-child(4) #LblTitle{\n    right: unset;\n    left: 0;\n  }\n}\n\n@media only screen \nand (max-device-width : 768px){\n  .mktoForm .mktoRadioList \u003E label, .mktoForm .mktoCheckboxList \u003E label{\n    margin-left: 2em !important;\n  }\n   .mktoForm .mktoFormRow:nth-child(2),.mktoForm .mktoFormRow:nth-child(3),.mktoForm .mktoFormRow:nth-child(4){\n    display: flex;\n    flex-direction: column;\n  }\n  \n   .mktoForm .mktoFormRow:nth-child(2) #LblFirstName, .mktoForm .mktoFormRow:nth-child(2) #LblLastName,.mktoForm .mktoFormRow:nth-child(3) #LblEmail, .mktoForm .mktoFormRow:nth-child(3) #LblCompany,.mktoForm .mktoFormRow:nth-child(4) #LblCountry, .mktoForm .mktoFormRow:nth-child(4) #LblTitle, .mktoForm .mktoFormRow:nth-child(2) input,.mktoForm .mktoFormRow:nth-child(3) input, .mktoForm .mktoFormRow:nth-child(4) input,.mktoForm .mktoFormRow:nth-child(4) select{\n    width: 100% !important;\n  }\n  \n}\n\n\n@media only screen and (max-device-width: 480px) {\n  #Pspacing{\n    margin-top: 15px;\n  }\n  #Pspacing2{\nmargin-top:15px;\n}\n  .mktoForm .mktoFormRow:nth-child(7) .mktoFormCol, .mktoForm .mktoFormRow:nth-child(8) .mktoFormCol {\n    margin-bottom: 0 !important;\n}\n  .mktoForm .mktoFormRow .mktoFormCol{\n  margin-bottom: 20px !important;\n  }\n  \n  #FirstName{\nmargin-right:0px;\nmargin-bottom:25px;\n}\n\n#LblFirstName{\n  position: absolute;\n  bottom: 0px;\n  right: 0px;\n  top: 30px;\n}\n\n#Title{\nmargin-right:0px;\n  margin-bottom:30px;\n}\n#LblTitle{\n  position: absolute;\n  bottom: 0px;\n  right: 0px;\n  top: 30px;\n}\n\n#Email{\nmargin-right:0px;\n  margin-bottom:25px;\n}\n#LblEmail{\n  position: absolute;\n  bottom: 0px;\n  right: 0px;\n  top: 30px;\n  margin-right: 0px;}\n  \n  #LastName{\n    margin-right:0px;\n  margin-bottom:25px;\n  }\n#LblLastName{\n  position: absolute;\n  bottom: 0px;\n  right: 0px;\n  top: 30px;\n  margin-right: 0px;}\n  \n  #Company{\n    margin-right:0px;\n  margin-bottom:25px;\n  }\n#LblCompany{\n  position: absolute;\n  bottom: 0px;\n  right: 0px;\n  top: 30px;\n  margin-right: 0px;}\n  \n  \n#LblCountry{\n  position: absolute;\n  bottom: 0px;\n  right: 0px;\n  top: 36px;\n  margin-right: 0px;}\n  \n  \n  #Country{\n    margin-right:0px;\n  margin-bottom:25px;\n    margin-top:10px;\n  }\n  \n  #consentcollected{\n  margin-top: 10px;\n  }\n  \n  #Unsubscribed{\n      margin-top: 10px;\n  }\n  \n  \n  .mktoFormRow:nth-child(8) .mktoCheckboxList, .mktoFormRow:nth-child(11) .mktoCheckboxList{\n    display: block !important;\n    width: 450px !important;\n  }\n  \n  .mktoFormRow:nth-child(8) .mktoCheckboxList{\n    display: block !important;\n    width: 450px !important;\n  }\n  \n  .mktoFormRow:nth-child(16){\n    display: flex;\n    margin: 0px;\n  }\n  \n      .mktoFormRow:nth-child(17){\n    display: flex;\n        margin: 0px;\n  }\n  \n    .mktoFormRow:nth-child(14){\n    display: flex;\n        margin: 0px;\n  }\n  \n        .mktoFormRow:nth-child(15){\n    display: flex;\n        margin: 0px;\n  }\n\n\n    }',
+                        LiveStreamSettings: null,
+                        rows: [
+                          [
+                            {
+                              Id: 9108,
+                              Name: "FirstName",
+                              IsRequired: true,
+                              Datatype: "string",
+                              Maxlength: 255,
+                              InputLabel: "First Name*",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              FieldWidth: 300,
+                              LabelWidth: 102,
+                              ValidationMessage: "This field is required.",
+                            },
+                            {
+                              Id: 9109,
+                              Name: "LastName",
+                              IsRequired: true,
+                              Datatype: "string",
+                              Maxlength: 255,
+                              InputLabel: "Last Name*",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              FieldWidth: 300,
+                              LabelWidth: 102,
+                              ValidationMessage: "This field is required.",
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9107,
+                              Name: "Email",
+                              IsRequired: true,
+                              Datatype: "email",
+                              Maxlength: 255,
+                              InputLabel: "Business Email*",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              FieldWidth: 300,
+                              LabelWidth: 119,
+                              ValidationMessage:
+                                "Must be valid email. \u003Cspan class='mktoErrorDetail'\u003Eexample@yourdomain.com\u003C\/span\u003E",
+                            },
+                            {
+                              Id: 9110,
+                              Name: "Company",
+                              IsRequired: true,
+                              Datatype: "string",
+                              Maxlength: 255,
+                              InputLabel: "Company Name*",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              FieldWidth: 300,
+                              LabelWidth: 125,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9111,
+                              Name: "Title",
+                              IsRequired: true,
+                              Datatype: "string",
+                              Maxlength: 255,
+                              InputLabel: "Job Title*",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              FieldWidth: 300,
+                              LabelWidth: 102,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                            },
+                            {
+                              Id: 9112,
+                              Name: "Country",
+                              IsRequired: true,
+                              Datatype: "picklist",
+                              Maxlength: 255,
+                              PicklistValues: [
+                                {
+                                  label: "Select...",
+                                  value: "",
+                                  selected: true,
+                                  isDefault: true,
+                                },
+                                { label: "Afghanistan", value: "Afghanistan" },
+                                { label: "Albania", value: "Albania" },
+                                { label: "Algeria", value: "Algeria" },
+                                {
+                                  label: "American Samoa",
+                                  value: "American Samoa",
+                                },
+                                { label: "Andorra", value: "Andorra" },
+                                { label: "Angola", value: "Angola" },
+                                { label: "Anguilla", value: "Anguilla" },
+                                { label: "Antarctica", value: "Antarctica" },
+                                { label: "Antigua", value: "Antigua" },
+                                { label: "Argentina", value: "Argentina" },
+                                { label: "Armenia", value: "Armenia" },
+                                { label: "Aruba", value: "Aruba" },
+                                { label: "Australia", value: "Australia" },
+                                { label: "Austria", value: "Austria" },
+                                { label: "Azerbaijan", value: "Azerbaijan" },
+                                { label: "Bahamas", value: "Bahamas" },
+                                { label: "Bahrain", value: "Bahrain" },
+                                { label: "Bangladesh", value: "Bangladesh" },
+                                { label: "Barbados", value: "Barbados" },
+                                { label: "Belarus", value: "Belarus" },
+                                { label: " Belgium", value: "Belgium" },
+                                { label: "Belize", value: "Belize" },
+                                { label: "Benin", value: "Benin" },
+                                { label: "Bermuda", value: "Bermuda" },
+                                { label: "Bhutan", value: "Bhutan" },
+                                { label: "Bolivia", value: "Bolivia" },
+                                { label: "Bosnia", value: "Bosnia" },
+                                { label: "Botswana", value: "Botswana" },
+                                { label: "Brazil", value: "Brazil" },
+                                {
+                                  label: "Brunei Darussalam",
+                                  value: "Brunei Darussalam",
+                                },
+                                { label: "Bulgaria", value: "Bulgaria" },
+                                {
+                                  label: "Burkina Faso",
+                                  value: "Burkina Faso",
+                                },
+                                { label: "Burundi", value: "Burundi" },
+                                { label: "Cambodia", value: "Cambodia" },
+                                { label: "Cameroon", value: "Cameroon" },
+                                { label: "Canada", value: "Canada" },
+                                {
+                                  label: "Cayman Islands",
+                                  value: "Cayman Islands",
+                                },
+                                { label: "Chad", value: "Chad" },
+                                { label: "Chile", value: "Chile" },
+                                { label: "China", value: "China" },
+                                { label: "Colombia", value: "Colombia" },
+                                { label: "Comoros", value: "Comoros" },
+                                { label: "Congo", value: "Congo" },
+                                { label: "Costa Rica", value: "Costa Rica" },
+                                { label: "Croatia", value: "Croatia" },
+                                { label: "Cuba", value: "Cuba" },
+                                { label: "Cyprus", value: "Cyprus" },
+                                {
+                                  label: "Czech Republic",
+                                  value: "Czech Republic",
+                                },
+                                {
+                                  label: "Democratic Republic of the Congo",
+                                  value: "Democratic Republic of the Congo",
+                                },
+                                { label: "Denmark", value: "Denmark" },
+                                { label: "Dominica", value: "Dominica" },
+                                {
+                                  label: "Dominican Republic",
+                                  value: "Dominican Republic",
+                                },
+                                { label: "Ecuador", value: "Ecuador" },
+                                { label: "Egypt", value: "Egypt" },
+                                { label: "El Salvador", value: "El Salvador" },
+                                { label: "England", value: "England" },
+                                {
+                                  label: "Equatorial Guinea",
+                                  value: "Equatorial Guinea",
+                                },
+                                { label: "Eritrea", value: "Eritrea" },
+                                { label: "Estonia", value: "Estonia" },
+                                { label: "Ethiopia", value: "Ethiopia" },
+                                { label: "Fiji", value: "Fiji" },
+                                { label: "Finland", value: "Finland" },
+                                { label: "France", value: "France" },
+                                { label: "Gabon", value: "Gabon" },
+                                { label: "Gambia", value: "Gambia" },
+                                { label: "Georgia", value: "Georgia" },
+                                { label: "Germany", value: "Germany" },
+                                { label: "Ghana", value: "Ghana" },
+                                { label: "Greece", value: "Greece" },
+                                { label: "Greenland", value: "Greenland" },
+                                { label: "Grenada", value: "Grenada" },
+                                { label: "Guadeloupe", value: "Guadeloupe" },
+                                { label: "Guam", value: "Guam" },
+                                { label: "Guatemala", value: "Guatemala" },
+                                { label: "Guinea", value: "Guinea" },
+                                { label: "Guyana", value: "Guyana" },
+                                { label: "Haiti", value: "Haiti" },
+                                { label: "Honduras", value: "Honduras" },
+                                {
+                                  label: "Hong Kong SAR",
+                                  value: "Hong Kong SAR",
+                                },
+                                { label: "Hungary", value: "Hungary" },
+                                { label: "Iceland", value: "Iceland" },
+                                { label: "India", value: "India" },
+                                { label: "Indonesia", value: "Indonesia" },
+                                { label: "Iran", value: "Iran" },
+                                { label: "Iraq", value: "Iraq" },
+                                { label: "Ireland", value: "Ireland" },
+                                { label: "Israel", value: "Israel" },
+                                { label: "Italy", value: "Italy" },
+                                { label: "Jamaica", value: "Jamaica" },
+                                { label: "Japan", value: "Japan" },
+                                { label: "Jordan", value: "Jordan" },
+                                { label: "Kazakhstan", value: "Kazakhstan" },
+                                { label: "Kenya", value: "Kenya" },
+                                {
+                                  label: "Korea, North",
+                                  value: "Korea, North",
+                                },
+                                {
+                                  label: "Korea, South",
+                                  value: "Korea, South",
+                                },
+                                { label: "Kuwait", value: "Kuwait" },
+                                { label: "Kyrgyzstan", value: "Kyrgyzstan" },
+                                {
+                                  label: "Lao Democratic Republic",
+                                  value: "Lao Democratic Republic",
+                                },
+                                { label: "Latvia", value: "Latvia" },
+                                { label: "Lebanon", value: "Lebanon" },
+                                { label: "Liberia", value: "Liberia" },
+                                { label: "Libya", value: "Libya" },
+                                {
+                                  label: "Liechtenstein",
+                                  value: "Liechtenstein",
+                                },
+                                { label: "Lithuania", value: "Lithuania" },
+                                { label: "Luxembourg", value: "Luxembourg" },
+                                { label: "Macao SAR", value: "Macao SAR" },
+                                { label: "Macedonia", value: "Macedonia" },
+                                { label: "Madagascar", value: "Madagascar" },
+                                { label: "Malawi", value: "Malawi" },
+                                { label: "Malaysia", value: "Malaysia" },
+                                { label: "Maldives", value: "Maldives" },
+                                { label: "Malta", value: "Malta" },
+                                { label: "Mexico", value: "Mexico" },
+                                { label: "Micronesia", value: "Micronesia" },
+                                { label: "Moldova", value: "Moldova" },
+                                { label: "Monaco", value: "Monaco" },
+                                { label: "Mongolia", value: "Mongolia" },
+                                { label: "Montenegro", value: "Montenegro" },
+                                { label: "Morocco", value: "Morocco" },
+                                { label: "Mozambique", value: "Mozambique" },
+                                { label: "Myanmar", value: "Myanmar" },
+                                { label: "Namibia", value: "Namibia" },
+                                { label: "Nepal", value: "Nepal" },
+                                { label: "Netherlands", value: "Netherlands" },
+                                { label: "New Zealand", value: "New Zealand" },
+                                { label: "Nicaragua", value: "Nicaragua" },
+                                { label: "Niger", value: "Niger" },
+                                { label: "Nigeria", value: "Nigeria" },
+                                { label: "Norway", value: "Norway" },
+                                { label: "Oman", value: "Oman" },
+                                { label: "Pakistan", value: "Pakistan" },
+                                { label: "Palau", value: "Palau" },
+                                { label: "Palestine", value: "Palestine" },
+                                { label: "Panama", value: "Panama" },
+                                {
+                                  label: "Papua New Guinea",
+                                  value: "Papua New Guinea",
+                                },
+                                { label: "Paraguay", value: "Paraguay" },
+                                { label: "Peru", value: "Peru" },
+                                { label: "Philippines", value: "Philippines" },
+                                { label: "Poland", value: "Poland" },
+                                { label: "Portugal", value: "Portugal" },
+                                { label: "Puerto Rico", value: "Puerto Rico" },
+                                { label: "Qatar", value: "Qatar" },
+                                { label: "Romania", value: "Romania" },
+                                {
+                                  label: "Russian Federation",
+                                  value: "Russian Federation",
+                                },
+                                { label: "Rwanda", value: "Rwanda" },
+                                { label: "Saint Lucia", value: "Saint Lucia" },
+                                {
+                                  label: "Saint Vincent Grenadines",
+                                  value: "Saint Vincent Grenadines",
+                                },
+                                { label: "Samoa", value: "Samoa" },
+                                { label: "San Marino", value: "San Marino" },
+                                {
+                                  label: "Sao Tome and Principe",
+                                  value: "Sao Tome and Principe",
+                                },
+                                {
+                                  label: "Saudi Arabia",
+                                  value: "Saudi Arabia",
+                                },
+                                { label: "Scotland", value: "Scotland" },
+                                { label: "Senegal", value: "Senegal" },
+                                { label: "Serbia", value: "Serbia" },
+                                {
+                                  label: "Sierra Leone",
+                                  value: "Sierra Leone",
+                                },
+                                { label: "Singapore", value: "Singapore" },
+                                { label: "Slovakia", value: "Slovakia" },
+                                { label: "Slovenia", value: "Slovenia" },
+                                { label: "Somalia", value: "Somalia" },
+                                {
+                                  label: "South Africa",
+                                  value: "South Africa",
+                                },
+                                { label: "Spain", value: "Spain" },
+                                { label: "Sri Lanka", value: "Sri Lanka" },
+                                { label: "Sudan", value: "Sudan" },
+                                { label: "Suriname", value: "Suriname" },
+                                { label: "Sweden", value: "Sweden" },
+                                { label: "Switzerland", value: "Switzerland" },
+                                { label: "Syria", value: "Syria" },
+                                {
+                                  label: "Taiwan, China",
+                                  value: "Taiwan, China",
+                                },
+                                { label: "Tajikistan", value: "Tajikistan" },
+                                { label: "Tanzania", value: "Tanzania" },
+                                { label: "Thailand", value: "Thailand" },
+                                { label: "Togo", value: "Togo" },
+                                {
+                                  label: "Trinidad and Tobago",
+                                  value: "Trinidad and Tobago",
+                                },
+                                { label: "Tunisia", value: "Tunisia" },
+                                {
+                                  label: "T\u00fcrkiye",
+                                  value: "T\u00fcrkiye",
+                                },
+                                {
+                                  label: "Turkmenistan",
+                                  value: "Turkmenistan",
+                                },
+                                { label: "Tuvalu", value: "Tuvalu" },
+                                { label: "Uganda", value: "Uganda" },
+                                { label: "Ukraine", value: "Ukraine" },
+                                {
+                                  label: "United Arab Emirates",
+                                  value: "United Arab Emirates",
+                                },
+                                {
+                                  label: "United Kingdom",
+                                  value: "United Kingdom",
+                                },
+                                {
+                                  label: "United States",
+                                  value: "United States",
+                                },
+                                { label: "Uruguay", value: "Uruguay" },
+                                { label: "Uzbekistan", value: "Uzbekistan" },
+                                { label: "Vatican", value: "Vatican" },
+                                { label: "Venezuela", value: "Venezuela" },
+                                { label: "Vietnam", value: "Vietnam" },
+                                { label: "Yemen", value: "Yemen" },
+                                { label: "Zambia", value: "Zambia" },
+                                { label: "Zimbabwe", value: "Zimbabwe" },
+                              ],
+                              DefaultValue: [""],
+                              InputLabel: "Country*",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              VisibleRows: 4,
+                              FieldWidth: 300,
+                              LabelWidth: 102,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9125,
+                              Name: "State",
+                              IsRequired: true,
+                              Datatype: "picklist",
+                              Maxlength: 255,
+                              PicklistValues: [
+                                {
+                                  label: "Select...",
+                                  value: "",
+                                  isDefault: true,
+                                  selected: true,
+                                },
+                                { label: "AK", value: "AK" },
+                                { label: "AL", value: "AL" },
+                                { label: "AR", value: "AR" },
+                                { label: "AZ", value: "AZ" },
+                                { label: "CA", value: "CA" },
+                                { label: "CO", value: "CO" },
+                                { label: "CT", value: "CT" },
+                                { label: "DE", value: "DE" },
+                                { label: "FL", value: "FL" },
+                                { label: "GA", value: "GA" },
+                                { label: "HI", value: "HI" },
+                                { label: "IA", value: "IA" },
+                                { label: "ID", value: "ID" },
+                                { label: "IL", value: "IL" },
+                                { label: "IN", value: "IN" },
+                                { label: "KS", value: "KS" },
+                                { label: "KY", value: "KY" },
+                                { label: "LA", value: "LA" },
+                                { label: "MA", value: "MA" },
+                                { label: "MD", value: "MD" },
+                                { label: "ME", value: "ME" },
+                                { label: "MI", value: "MI" },
+                                { label: "MN", value: "MN" },
+                                { label: "MO", value: "MO" },
+                                { label: "MS", value: "MS" },
+                                { label: "MT", value: "MT" },
+                                { label: "NC", value: "NC" },
+                                { label: "ND", value: "ND" },
+                                { label: "NE", value: "NE" },
+                                { label: "NH", value: "NH" },
+                                { label: "NJ", value: "NJ" },
+                                { label: "NM", value: "NM" },
+                                { label: "NV", value: "NV" },
+                                { label: "NY", value: "NY" },
+                                { label: "OH", value: "OH" },
+                                { label: "OK", value: "OK" },
+                                { label: "OR", value: "OR" },
+                                { label: "PA", value: "PA" },
+                                { label: "RI", value: "RI" },
+                                { label: "SC", value: "SC" },
+                                { label: "SD", value: "SD" },
+                                { label: "TN", value: "TN" },
+                                { label: "TX", value: "TX" },
+                                { label: "UT", value: "UT" },
+                                { label: "VA", value: "VA" },
+                                { label: "VT", value: "VT" },
+                                { label: "WA", value: "WA" },
+                                { label: "WI", value: "WI" },
+                                { label: "WV", value: "WV" },
+                                { label: "WY", value: "WY" },
+                              ],
+                              InputLabel: "State*",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              VisibleRows: 4,
+                              FieldWidth: 300,
+                              LabelWidth: 102,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                              VisibilityRule: {
+                                defaultVisibility: "hide",
+                                rules: [
+                                  {
+                                    subjectField: "Country",
+                                    fieldLabel: "Country*",
+                                    operator: "equal",
+                                    values: ["United States"],
+                                    altLabel: "State*",
+                                    picklistFilterValues: [
+                                      { label: "Select...", value: "" },
+                                      { label: "AK", value: "AK" },
+                                      { label: "AL", value: "AL" },
+                                      { label: "AR", value: "AR" },
+                                      { label: "AZ", value: "AZ" },
+                                      { label: "CA", value: "CA" },
+                                      { label: "CO", value: "CO" },
+                                      { label: "CT", value: "CT" },
+                                      { label: "DE", value: "DE" },
+                                      { label: "FL", value: "FL" },
+                                      { label: "GA", value: "GA" },
+                                      { label: "HI", value: "HI" },
+                                      { label: "IA", value: "IA" },
+                                      { label: "ID", value: "ID" },
+                                      { label: "IL", value: "IL" },
+                                      { label: "IN", value: "IN" },
+                                      { label: "KS", value: "KS" },
+                                      { label: "KY", value: "KY" },
+                                      { label: "LA", value: "LA" },
+                                      { label: "MA", value: "MA" },
+                                      { label: "MD", value: "MD" },
+                                      { label: "ME", value: "ME" },
+                                      { label: "MI", value: "MI" },
+                                      { label: "MN", value: "MN" },
+                                      { label: "MO", value: "MO" },
+                                      { label: "MS", value: "MS" },
+                                      { label: "MT", value: "MT" },
+                                      { label: "NC", value: "NC" },
+                                      { label: "ND", value: "ND" },
+                                      { label: "NE", value: "NE" },
+                                      { label: "NH", value: "NH" },
+                                      { label: "NJ", value: "NJ" },
+                                      { label: "NM", value: "NM" },
+                                      { label: "NV", value: "NV" },
+                                      { label: "NY", value: "NY" },
+                                      { label: "OH", value: "OH" },
+                                      { label: "OK", value: "OK" },
+                                      { label: "OR", value: "OR" },
+                                      { label: "PA", value: "PA" },
+                                      { label: "RI", value: "RI" },
+                                      { label: "SC", value: "SC" },
+                                      { label: "SD", value: "SD" },
+                                      { label: "TN", value: "TN" },
+                                      { label: "TX", value: "TX" },
+                                      { label: "UT", value: "UT" },
+                                      { label: "VA", value: "VA" },
+                                      { label: "VT", value: "VT" },
+                                      { label: "WA", value: "WA" },
+                                      { label: "WI", value: "WI" },
+                                      { label: "WV", value: "WV" },
+                                      { label: "WY", value: "WY" },
+                                    ],
+                                  },
+                                ],
+                              },
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9129,
+                              Name: "HtmlText_2023-05-04T08:17:03.093Z",
+                              Datatype: "htmltext",
+                              InputInitialValue: "",
+                              LabelWidth: 450,
+                              ProfilingFieldNumber: 0,
+                              Htmltext:
+                                "\u003Cp\u003EPlease select the type of information you would like to receive from us: \u00a0\u003C\/p\u003E",
+                              IsLabelToLeft: true,
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9130,
+                              Name: "businessEvents",
+                              Datatype: "single_checkbox",
+                              Maxlength: 255,
+                              PicklistValues: [{ label: "", value: "yes" }],
+                              InputLabel: "Business Events",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              FieldWidth: 1,
+                              LabelWidth: 155,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                            },
+                            {
+                              Id: 9131,
+                              Name: "customerStories",
+                              Datatype: "single_checkbox",
+                              Maxlength: 255,
+                              PicklistValues: [{ label: "", value: "yes" }],
+                              InputLabel: "Customer Stories",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              FieldWidth: 1,
+                              LabelWidth: 155,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                            },
+                            {
+                              Id: 9134,
+                              Name: "reports",
+                              Datatype: "single_checkbox",
+                              Maxlength: 255,
+                              PicklistValues: [{ label: "", value: "yes" }],
+                              InputLabel: "Reports & Research",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              FieldWidth: 1,
+                              LabelWidth: 155,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9132,
+                              Name: "newsandUpdates",
+                              Datatype: "single_checkbox",
+                              Maxlength: 255,
+                              PicklistValues: [{ label: "", value: "yes" }],
+                              InputLabel: "EPAM News & Updates",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              FieldWidth: 1,
+                              LabelWidth: 155,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                            },
+                            {
+                              Id: 9133,
+                              Name: "careersStories",
+                              Datatype: "single_checkbox",
+                              Maxlength: 255,
+                              PicklistValues: [{ label: "", value: "yes" }],
+                              InputLabel: "Career Stories & Events",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              FieldWidth: 1,
+                              LabelWidth: 155,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9120,
+                              Name: "HtmlText_2022-11-01T03:21:51.168Z",
+                              Datatype: "htmltext",
+                              InputInitialValue: "",
+                              LabelWidth: 260,
+                              ProfilingFieldNumber: 0,
+                              Htmltext:
+                                '\u003Cp style="font-size: 15px; margin-top: 9px;"\u003E\u003Cstrong style="padding: 0px; margin: 0px;"\u003EIndustries*\u003C\/strong\u003E\u003C\/p\u003E',
+                              IsLabelToLeft: true,
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9126,
+                              Name: "HtmlText_2023-04-11T07:26:22.960Z",
+                              Datatype: "htmltext",
+                              InputInitialValue: "",
+                              LabelWidth: 670,
+                              ProfilingFieldNumber: 0,
+                              Htmltext:
+                                "Please select all industries you have an interest in:",
+                              IsLabelToLeft: true,
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9113,
+                              Name: "industryPreference",
+                              IsRequired: true,
+                              Datatype: "checkbox",
+                              Maxlength: 255,
+                              PicklistValues: [
+                                { label: "Consumer", value: "Consumer" },
+                                { label: "Education", value: "Education" },
+                                {
+                                  label: "Energy & Resources",
+                                  value: "Energy & Resources",
+                                },
+                                {
+                                  label: "Financial Services",
+                                  value: "Financial Services",
+                                },
+                                { label: "Industrial", value: "Industrial" },
+                                { label: "Insurance", value: "Insurance" },
+                                {
+                                  label: "Life Sciences & Healthcare",
+                                  value: "Life Sciences & Healthcare",
+                                },
+                                {
+                                  label: "Software & Hi-Tech",
+                                  value: "Software & Hi-Tech",
+                                },
+                                {
+                                  label: "Telecom, Media & Entertainment",
+                                  value: "Telecom, Media & Entertainment",
+                                },
+                              ],
+                              InputLabel: "",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              VisibleRows: 4,
+                              LabelWidth: 10,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9121,
+                              Name: "HtmlText_2022-11-01T03:29:34.333Z",
+                              Datatype: "htmltext",
+                              InputInitialValue: "",
+                              LabelWidth: 260,
+                              ProfilingFieldNumber: 0,
+                              Htmltext:
+                                '\u003Cp style="font-size: 15px; margin-top: 9px;"\u003E\u003Cstrong style="padding: 0px; margin: 0px;"\u003EBusiness Themes \u003C\/strong\u003E\u003C\/p\u003E',
+                              IsLabelToLeft: true,
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9127,
+                              Name: "HtmlText_2023-04-11T07:27:08.119Z",
+                              Datatype: "htmltext",
+                              InputInitialValue: "",
+                              LabelWidth: 670,
+                              ProfilingFieldNumber: 0,
+                              Htmltext:
+                                "Please select all business themes you have an interest in:",
+                              IsLabelToLeft: true,
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9114,
+                              Name: "businessTopicPreference",
+                              Datatype: "checkbox",
+                              Maxlength: 255,
+                              PicklistValues: [
+                                { label: "Cloud", value: "Cloud" },
+                                { label: "CX+", value: "CX+" },
+                                {
+                                  label: "Cybersecurity",
+                                  value: "Cybersecurity",
+                                },
+                                {
+                                  label: "Data & Analytics",
+                                  value: "Data & Analytics",
+                                },
+                                { label: "Engineering", value: "Engineering" },
+                                {
+                                  label: "Managed Services",
+                                  value: "Managed Services",
+                                },
+                                {
+                                  label: "Sustainability",
+                                  value: "Sustainability & ESG",
+                                },
+                                { label: "Testing ", value: "Testing" },
+                                {
+                                  label: "Artificial Intelligence",
+                                  value: "Artificial Intelligence",
+                                },
+                                {
+                                  label: "Supply Chain ",
+                                  value: "Supply Chain",
+                                },
+                                { label: "Strategy", value: "Strategy" },
+                              ],
+                              InputLabel: "",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              LabelWidth: 10,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9115,
+                              Name: "subscribetoallcommunications",
+                              Datatype: "single_checkbox",
+                              PicklistValues: [{ label: "", value: "yes" }],
+                              InputLabel: "",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              FieldWidth: 24,
+                              LabelWidth: 0,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                            },
+                            {
+                              Id: 9122,
+                              Name: "HtmlText_2022-11-03T09:41:13.041Z",
+                              Datatype: "htmltext",
+                              InputInitialValue: "",
+                              LabelWidth: 260,
+                              ProfilingFieldNumber: 0,
+                              Htmltext:
+                                '\u003Cp id="Pspacing"\u003E\u003Cstrong style="padding: 0px;"\u003ESubscribe to all communications\u003C\/strong\u003E\u003C\/p\u003E',
+                              IsLabelToLeft: true,
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9116,
+                              Name: "Unsubscribed",
+                              Datatype: "single_checkbox",
+                              PicklistValues: [{ label: "", value: "yes" }],
+                              InputLabel: "",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              FieldWidth: 24,
+                              LabelWidth: 0,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                            },
+                            {
+                              Id: 9123,
+                              Name: "HtmlText_2022-11-03T09:41:21.211Z",
+                              Datatype: "htmltext",
+                              InputInitialValue: "",
+                              LabelWidth: 260,
+                              ProfilingFieldNumber: 0,
+                              Htmltext:
+                                '\u003Cp id="Pspacing2"\u003E\u003Cstrong style="padding: 0px;"\u003EUnsubscribe from all communications\u003C\/strong\u003E\u003C\/p\u003E',
+                              IsLabelToLeft: true,
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9118,
+                              Name: "UnsubscribedReason",
+                              Datatype: "checkbox",
+                              Maxlength: 2000,
+                              PicklistValues: [
+                                {
+                                  label: "I received too many emails",
+                                  value: "I received too many emails",
+                                },
+                                {
+                                  label: "The content is no longer relevant",
+                                  value: "The content is no longer relevant",
+                                },
+                                {
+                                  label:
+                                    "The content wasn\u2019t what I expected",
+                                  value:
+                                    "The content wasn\u2019t what I expected",
+                                },
+                                {
+                                  label:
+                                    "I never signed up for this email list",
+                                  value:
+                                    "I never signed up for this email list",
+                                },
+                                {
+                                  label: "Privacy concerns",
+                                  value: "Privacy concerns",
+                                },
+                                { label: "Other", value: "Other" },
+                              ],
+                              InputLabel: "Unsubscribe reason:",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              VisibleRows: 4,
+                              FieldWidth: 257,
+                              LabelWidth: 193,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                              VisibilityRule: {
+                                defaultVisibility: "hide",
+                                rules: [
+                                  {
+                                    subjectField: "Unsubscribed",
+                                    fieldLabel: "",
+                                    operator: "equal",
+                                    values: ["yes"],
+                                    altLabel: "Unsubscribe reason:",
+                                    picklistFilterValues: [
+                                      {
+                                        label: "I received too many emails",
+                                        value: "I received too many emails",
+                                      },
+                                      {
+                                        label:
+                                          "The content is no longer relevant",
+                                        value:
+                                          "The content is no longer relevant",
+                                      },
+                                      {
+                                        label:
+                                          "The content wasn\u2019t what I expected",
+                                        value:
+                                          "The content wasn\u2019t what I expected",
+                                      },
+                                      {
+                                        label:
+                                          "I never signed up for this email list",
+                                        value:
+                                          "I never signed up for this email list",
+                                      },
+                                      {
+                                        label: "Privacy concerns",
+                                        value: "Privacy concerns",
+                                      },
+                                      { label: "Other", value: "Other" },
+                                    ],
+                                  },
+                                ],
+                              },
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9117,
+                              Name: "consentcollected",
+                              IsRequired: true,
+                              Datatype: "single_checkbox",
+                              PicklistValues: [{ label: "", value: "yes" }],
+                              InputLabel: "",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              FieldWidth: 24,
+                              LabelWidth: 0,
+                              ProfilingFieldNumber: 0,
+                              ValidationMessage: "This field is required.",
+                            },
+                            {
+                              Id: 9119,
+                              Name: "HtmlText_2022-10-31T03:49:25.287Z",
+                              Datatype: "htmltext",
+                              InputInitialValue: "",
+                              LabelWidth: 670,
+                              ProfilingFieldNumber: 0,
+                              Htmltext:
+                                '\u003Cp style="font-size: 10px; line-height: 1.4;"\u003EI consent to NDS Consultancy, Inc. (\u201cEPAM\u201d) processing my personal information as set out in the \u003Cspan style="text-decoration: underline;"\u003E\u003Cspan style="color: #76cdd8; text-decoration: underline;"\u003E\u003Ca href="https:\/\/www.epam.com\/privacy-policy" target="_blank" style="color: #0047ff; padding: 0px; text-decoration: underline;"\u003EPrivacy Policy\u003C\/a\u003E\u003C\/span\u003E\u003C\/span\u003E and \u003Cspan style="text-decoration: underline;"\u003E\u003Cspan style="color: #76cdd8; text-decoration: underline;"\u003E\u003Ca href="https:\/\/www.epam.com\/cookie-policy" target="_blank" id="" style="color: #0047ff; padding: 0px; text-decoration: underline;"\u003ECookie Policy\u003C\/a\u003E\u003C\/span\u003E\u003C\/span\u003E, and that, given the global nature of EPAM\u2019s business, such processing may take place outside of my home jurisdiction.*\u003C\/p\u003E',
+                              IsLabelToLeft: true,
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9124,
+                              Name: "subscriptionlastupdated",
+                              Datatype: "hidden",
+                              InputLabel: "Subscription last updated:",
+                              InputInitialValue: "",
+                              InputSourceChannel: "constant",
+                              ProfilingFieldNumber: 0,
+                            },
+                          ],
+                          [
+                            {
+                              Id: 9128,
+                              Name: "HtmlText_2023-04-11T07:28:34.933Z",
+                              Datatype: "htmltext",
+                              InputInitialValue: "",
+                              LabelWidth: 260,
+                              ProfilingFieldNumber: 0,
+                              Htmltext:
+                                "\u003Cstrong\u003E* Indicates required fields\u003C\/strong\u003E",
+                              IsLabelToLeft: true,
+                            },
+                          ],
+                        ],
+                        fieldsetRows: [],
+                        action: "\/index.php\/leadCapture\/save2",
+                        munchkinId: "030-GZP-996",
+                        dcJsUrl: "",
+                        invalidInputMsg: "Invalid Input",
+                        formSubmitFailedMsg:
+                          "Submission failed, please try again later.",
+                        isPreview: null,
+                      };
+                      MktoForms2.setOptions({ baseUrl: "/js/forms2/" });
+                      var isDev = false;
+                      if (isDev && window.console && window.JSON) {
+                        console.log(JSON.stringify(formDescriptor, null, "  "));
+                      }
+                      formDescriptor.lpId = 1165;
+                      var form = MktoForms2.newForm(
+                        formDescriptor,
+                        function (form) {
+                          var lpFields = {
+                            lpId: 1165,
+                            subId: 52,
+                            munchkinId: "030-GZP-996",
+                            lpurl:
+                              "\/Preference-Center.html?cr={creative}&kw={keyword}",
+                          };
+                          var pageFields = MktoForms2.getPageFields();
+                          form.addHiddenFields(lpFields);
+                          form.addHiddenFields(pageFields);
+                          if (window.mktoPreFillFields) {
+                            form.setValuesCoerced(mktoPreFillFields);
+                          }
+                          if (!form.EnableDeferredMode) {
+                            form.render();
+                          }
+                        }
+                      );
+                    })();
+                  </script>
+
+                  <noscript>
+                    <form class="mktoForm mktoNoJS">
+                      <input type="hidden" name="formid" value="1007" />
+                    </form>
+                    <p>Please enable Javascript to view this form.</p>
+                  </noscript>
+                </span>
+              </div>
+            </div>
+            <div class="mktoText" id="textAfterForm"><div></div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER
+      ================================= -->
+      <section id="footer" class="footer-section section" style="border: none">
+        <div class="container">
+          <div class="mktoText footer-copyright" id="footerText">
+            <div style="text-align: center">
+              &copy;
+              <script type="text/JavaScript">
+                // <![CDATA[
+                document.write(new Date().getFullYear());
+                // ]]>
+              </script>
+              NDS Consultancy, Inc.
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- LIBRARIES JS
+    ================================= -->
+    <script src="//templates.marketo.net/template2/js/jquery-1.11.2.min.js"></script>
+    <script src="//templates.marketo.net/template2/js/bootstrap.min.js"></script>
+    <script src="//templates.marketo.net/template2/js/respimage.min.js"></script>
+    <script src="//templates.marketo.net/template2/js/jpreloader.min.js"></script>
+    <script src="//templates.marketo.net/template2/js/smoothscroll.min.js"></script>
+    <script src="//templates.marketo.net/template2/js/jquery.inview.min.js"></script>
+    <script src="//templates.marketo.net/template2/js/jquery.stellar.min.js"></script>
+
+    <!-- MAIN SCRIPT
+    ================================= -->
+    <script src="//templates.marketo.net/template2/js/script.js"></script>
+
+    <div class="mktoContent"></div>
+    <script
+      type="text/javascript"
+      src="//munchkin.marketo.net//munchkin.js"
+    ></script>
+    <script>
+      Munchkin.init("030-GZP-996", {
+        customName: "Preference-Center",
+        wsInfo: "j1RR",
+      });
+    </script>
+    <script type="text/javascript" src="/js/stripmkttok.js"></script>
+  </body>
+</html>
