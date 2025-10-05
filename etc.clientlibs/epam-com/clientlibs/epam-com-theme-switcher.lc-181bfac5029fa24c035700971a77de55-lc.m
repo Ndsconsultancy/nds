@@ -1,0 +1,1 @@
+(function(){var a=$(document.body);a.data("mode-switcher")&&"light-mode"===localStorage.getItem("theme-mode")&&a.removeClass("dark-mode").addClass("light-mode")})();
